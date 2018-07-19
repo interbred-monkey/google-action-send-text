@@ -1,0 +1,32 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "Testing a bit of typescript and the like",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.273.1",
+    "dotenv": "^6.0.0",
+    "lodash": "^4.17.10",
+    "twilio": "^3.17.6"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/lodash": "^4.14.111",
+    "@types/node": "^10.5.2",
+    "@types/twilio": "0.0.9"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interbred-monkey/ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interbred-monkey/ts/issues"
+  },
+  "homepage": "https://github.com/interbred-monkey/ts#readme"
+}

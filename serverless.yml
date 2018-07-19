@@ -1,0 +1,19 @@
+service: google-action-send-text
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  fulfillment:
+    handler: handler.fulfillment
+    environment:
+      # Twilio config
+      TEXT_SVC_API_KEY: AC728fecb8196fa228e7793234c1abd687
+      TEXT_SVC_API_SECRET: e5db04a06244fe3e4786643004b6a8e8
+      TEXT_SVC_FROM_NUMBER: +441522246035
+
+      # AWS config
+      AWS_ACCESS_KEY_ID: AKIAIZREC7M4WEJHDUYQ
+      AWS_SECRET_ACCESS_KEY: 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
+      AWS_DEFAULT_REGION: eu-west-2
